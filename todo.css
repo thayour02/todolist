@@ -1,0 +1,56 @@
+#title{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+#todo{
+    height: 40px;
+    border: 2px solid #000;
+    font-size: 20px;
+}
+#date{
+    height:40px;
+    border: 2px solid #000;
+    font-size: 20px;
+    width: 170px;
+}
+#date-input{
+    padding: 10px;
+}
+#add{
+    height: 40px;
+    width: 100px;
+    border: none;
+    background: green;
+    font-size: 20px;
+    color: floralwhite;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.delete{
+    margin-left: 20px;
+    height: 40px;
+    width: 100px;
+    border: none;
+    background: red;
+    font-size: 20px;
+    color: floralwhite;
+    cursor: pointer;
+}
+.name,
+.date{
+    font-size: 29px;
+    gap: 20px;
+
+}
+#addt,
+.tdlist{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    align-items: center;
+}
+
