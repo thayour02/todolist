@@ -27,7 +27,6 @@
         document.getElementById('addt').innerHTML = addtodo
 
         }
-        console.log(addtodo)
 
 
 
@@ -43,7 +42,6 @@
             
         })
 
-        console.log(todolist)
 
         todoinput.value = ''
         dateinput.value =''
